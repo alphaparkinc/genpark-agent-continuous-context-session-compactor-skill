@@ -1,0 +1,11 @@
+{
+  "name": "genpark-agent-continuous-context-session-compactor-skill",
+  "version": "1.0.0",
+  "description": "Continuous long-context conversation compactor tracking token budgets and condensing history",
+  "mcp": {
+    "server": "mcp_server.py",
+    "tools": [
+      "compact_messages"
+    ]
+  }
+}
